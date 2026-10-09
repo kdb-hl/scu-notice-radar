@@ -1,0 +1,24 @@
+# 运行时数据：本地缓存 / 已读状态 / 日志 / 导出
+/data/
+/digest/
+/state.json
+
+# 打包产物与构建中间件（可执行文件走 GitHub Releases，不进仓库）
+/build/
+/dist/
+/.buildenv/
+
+# 开发期临时脚本与产物（抓取审计、录屏素材、截图等）
+/_dev/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.idea/
+.vscode/
